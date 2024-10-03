@@ -1,0 +1,48 @@
+.header {
+  background-color: rgb(3, 3, 216);
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.form {
+  position: relative;
+}
+
+.input {
+  width: 350px;
+  height: 40px;
+  padding-left: 40px;
+  border-radius: 8px;
+  border: 1px solid rgb(148, 160, 160);
+  transition: background-color 250ms ease;
+}
+
+.input:hover,
+.input:focus,
+.input:active {
+  cursor: pointer;
+  outline: none;
+  background-color: rgb(230, 224, 224);
+}
+
+.icon {
+  width: 18px;
+  height: 18px;
+}
+
+.searchBtn {
+  position: absolute;
+  left: 4px;
+  top: 8px;
+  width: 28px;
+  height: 28px;
+  border: none;
+  background-color: transparent;
+}
+
+.searchBtn:hover {
+  cursor: pointer;
+}

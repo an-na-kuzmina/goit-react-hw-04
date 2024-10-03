@@ -1,0 +1,18 @@
+.errorWrapper {
+  display: block;
+  margin-top: 12px;
+  text-align: center;
+  padding: 4px;
+}
+
+.errorText {
+  font-size: 18px;
+  color: darkslategrey;
+}
+
+.icon {
+  margin-left: 4px;
+  width: 24px;
+  height: 24px;
+  color: darkslategrey;
+}
